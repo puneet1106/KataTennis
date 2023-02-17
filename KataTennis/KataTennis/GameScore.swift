@@ -13,7 +13,7 @@ class GameScore: NSObject {
     var player2Points = 0;
     
     func getPlayerPoints(player1Points: Int, player2Points: Int) -> String {
-        if(player1Points == player2Points && player1Points == 0) {
+        if(player1Points == player2Points) {
             return getPointsValue(point: player1Points) + " All"
         }
           
