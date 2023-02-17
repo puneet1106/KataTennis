@@ -14,10 +14,24 @@ class GameScore: NSObject {
     
     func getPlayerPoints(player1Points: Int, player2Points: Int) -> String {
         if(player1Points == player2Points && player1Points == 0) {
-            return "Love All"
-        } else if (player1Points == 1 && player2Points == 0) {
-            return "Fifteen - Love"
+            return getPointsValue(point: player1Points) + " All"
         }
-        return ""
+          
+        return getPointsValue(point: player1Points) + " - " + getPointsValue(point: player2Points)
+    }
+    
+    private func getPointsValue(point: Int) -> String {
+        switch point {
+        case 0:
+            return "Love"
+        case 1:
+            return "Fifteen"
+        case 2:
+            return "Thirty"
+        case 3:
+            return "Forty"
+        default:
+            return "Love"
+        }
     }
 }
