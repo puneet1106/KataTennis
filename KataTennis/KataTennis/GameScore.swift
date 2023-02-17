@@ -22,7 +22,11 @@ class GameScore: NSObject {
         }
         
         if checkIfAdvantage() {
-            return playerHavingAdvantage() + " Advantage"
+            return playerHavingMorePoints() + " Advantage"
+        }
+        
+        if checkIfWinner() {
+            return playerHavingMorePoints() + " Wins"
         }
         
         if(player1Points == player2Points) {
@@ -48,7 +52,19 @@ class GameScore: NSObject {
         return (self.player2Points > 3) && (self.player2Points - self.player1Points == 1)
     }
     
-    func playerHavingAdvantage() -> String {
+    func checkIfWinner() -> Bool {
+        return checkIfPlayer1Winner() || checkIfPlayer2Winner()
+    }
+    
+    func checkIfPlayer1Winner() -> Bool {
+        return (self.player1Points > 3) && (self.player1Points - self.player2Points >= 2)
+    }
+    
+    func checkIfPlayer2Winner() -> Bool {
+        return (self.player2Points > 3) && (self.player2Points - self.player1Points >= 2)
+    }
+    
+    func playerHavingMorePoints() -> String {
         return self.player1Points > self.player2Points ? "Player1" : "Player2"
     }
     
