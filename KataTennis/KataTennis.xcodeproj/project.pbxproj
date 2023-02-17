@@ -15,6 +15,7 @@
 		DD391BEF299F4E4E00451D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD391BED299F4E4E00451D13 /* LaunchScreen.storyboard */; };
 		DD391BFA299F4E4E00451D13 /* KataTennisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD391BF9299F4E4E00451D13 /* KataTennisTests.swift */; };
 		DD391C05299F4E4E00451D13 /* KataTennisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD391C04299F4E4E00451D13 /* KataTennisUITests.swift */; };
+		DD391C16299F503E00451D13 /* GameScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD391C15299F503E00451D13 /* GameScore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DD391C00299F4E4E00451D13 /* KataTennisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KataTennisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD391C04299F4E4E00451D13 /* KataTennisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataTennisUITests.swift; sourceTree = "<group>"; };
 		DD391C06299F4E4E00451D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD391C15299F503E00451D13 /* GameScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				DD391BEB299F4E4E00451D13 /* Assets.xcassets */,
 				DD391BED299F4E4E00451D13 /* LaunchScreen.storyboard */,
 				DD391BF0299F4E4E00451D13 /* Info.plist */,
+				DD391C15299F503E00451D13 /* GameScore.swift */,
 			);
 			path = KataTennis;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD391C16299F503E00451D13 /* GameScore.swift in Sources */,
 				DD391BE7299F4E4D00451D13 /* ViewController.swift in Sources */,
 				DD391BE3299F4E4D00451D13 /* AppDelegate.swift in Sources */,
 				DD391BE5299F4E4D00451D13 /* SceneDelegate.swift in Sources */,
