@@ -15,6 +15,7 @@
 		DD391BEF299F4E4E00451D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD391BED299F4E4E00451D13 /* LaunchScreen.storyboard */; };
 		DD391BFA299F4E4E00451D13 /* KataTennisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD391BF9299F4E4E00451D13 /* KataTennisTests.swift */; };
 		DD391C16299F503E00451D13 /* GameScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD391C15299F503E00451D13 /* GameScore.swift */; };
+		DD391C20299F6F4900451D13 /* GameScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD391C1F299F6F4900451D13 /* GameScoreViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		DD391BF9299F4E4E00451D13 /* KataTennisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataTennisTests.swift; sourceTree = "<group>"; };
 		DD391BFB299F4E4E00451D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD391C15299F503E00451D13 /* GameScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScore.swift; sourceTree = "<group>"; };
+		DD391C1F299F6F4900451D13 /* GameScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScoreViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				DD391BE2299F4E4D00451D13 /* AppDelegate.swift */,
 				DD391BE4299F4E4D00451D13 /* SceneDelegate.swift */,
 				DD391BE6299F4E4D00451D13 /* ViewController.swift */,
+				DD391C1F299F6F4900451D13 /* GameScoreViewModel.swift */,
 				DD391BE8299F4E4D00451D13 /* Main.storyboard */,
 				DD391BEB299F4E4E00451D13 /* Assets.xcassets */,
 				DD391BED299F4E4E00451D13 /* LaunchScreen.storyboard */,
@@ -203,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD391C16299F503E00451D13 /* GameScore.swift in Sources */,
+				DD391C20299F6F4900451D13 /* GameScoreViewModel.swift in Sources */,
 				DD391BE7299F4E4D00451D13 /* ViewController.swift in Sources */,
 				DD391BE3299F4E4D00451D13 /* AppDelegate.swift in Sources */,
 				DD391BE5299F4E4D00451D13 /* SceneDelegate.swift in Sources */,
