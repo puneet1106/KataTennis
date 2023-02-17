@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD391BE3299F4E4D00451D13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD391BE2299F4E4D00451D13 /* AppDelegate.swift */; };
+		DD391BE5299F4E4D00451D13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD391BE4299F4E4D00451D13 /* SceneDelegate.swift */; };
+		DD391BE7299F4E4D00451D13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD391BE6299F4E4D00451D13 /* ViewController.swift */; };
+		DD391BEA299F4E4D00451D13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD391BE8299F4E4D00451D13 /* Main.storyboard */; };
+		DD391BEC299F4E4E00451D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD391BEB299F4E4E00451D13 /* Assets.xcassets */; };
+		DD391BEF299F4E4E00451D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD391BED299F4E4E00451D13 /* LaunchScreen.storyboard */; };
+		DD391BFA299F4E4E00451D13 /* KataTennisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD391BF9299F4E4E00451D13 /* KataTennisTests.swift */; };
+		DD391C05299F4E4E00451D13 /* KataTennisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD391C04299F4E4E00451D13 /* KataTennisUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD391BF6299F4E4E00451D13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD391BD7299F4E4D00451D13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD391BDE299F4E4D00451D13;
+			remoteInfo = KataTennis;
+		};
+		DD391C01299F4E4E00451D13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD391BD7299F4E4D00451D13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD391BDE299F4E4D00451D13;
+			remoteInfo = KataTennis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD391BDF299F4E4D00451D13 /* KataTennis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KataTennis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD391BE2299F4E4D00451D13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD391BE4299F4E4D00451D13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DD391BE6299F4E4D00451D13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD391BE9299F4E4D00451D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD391BEB299F4E4E00451D13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD391BEE299F4E4E00451D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD391BF0299F4E4E00451D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD391BF5299F4E4E00451D13 /* KataTennisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KataTennisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD391BF9299F4E4E00451D13 /* KataTennisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataTennisTests.swift; sourceTree = "<group>"; };
+		DD391BFB299F4E4E00451D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD391C00299F4E4E00451D13 /* KataTennisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KataTennisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD391C04299F4E4E00451D13 /* KataTennisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataTennisUITests.swift; sourceTree = "<group>"; };
+		DD391C06299F4E4E00451D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD391BDC299F4E4D00451D13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD391BF2299F4E4E00451D13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD391BFD299F4E4E00451D13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD391BD6299F4E4D00451D13 = {
+			isa = PBXGroup;
+			children = (
+				DD391BE1299F4E4D00451D13 /* KataTennis */,
+				DD391BF8299F4E4E00451D13 /* KataTennisTests */,
+				DD391C03299F4E4E00451D13 /* KataTennisUITests */,
+				DD391BE0299F4E4D00451D13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD391BE0299F4E4D00451D13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD391BDF299F4E4D00451D13 /* KataTennis.app */,
+				DD391BF5299F4E4E00451D13 /* KataTennisTests.xctest */,
+				DD391C00299F4E4E00451D13 /* KataTennisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD391BE1299F4E4D00451D13 /* KataTennis */ = {
+			isa = PBXGroup;
+			children = (
+				DD391BE2299F4E4D00451D13 /* AppDelegate.swift */,
+				DD391BE4299F4E4D00451D13 /* SceneDelegate.swift */,
+				DD391BE6299F4E4D00451D13 /* ViewController.swift */,
+				DD391BE8299F4E4D00451D13 /* Main.storyboard */,
+				DD391BEB299F4E4E00451D13 /* Assets.xcassets */,
+				DD391BED299F4E4E00451D13 /* LaunchScreen.storyboard */,
+				DD391BF0299F4E4E00451D13 /* Info.plist */,
+			);
+			path = KataTennis;
+			sourceTree = "<group>";
+		};
+		DD391BF8299F4E4E00451D13 /* KataTennisTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD391BF9299F4E4E00451D13 /* KataTennisTests.swift */,
+				DD391BFB299F4E4E00451D13 /* Info.plist */,
+			);
+			path = KataTennisTests;
+			sourceTree = "<group>";
+		};
+		DD391C03299F4E4E00451D13 /* KataTennisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD391C04299F4E4E00451D13 /* KataTennisUITests.swift */,
+				DD391C06299F4E4E00451D13 /* Info.plist */,
+			);
+			path = KataTennisUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD391BDE299F4E4D00451D13 /* KataTennis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD391C09299F4E4E00451D13 /* Build configuration list for PBXNativeTarget "KataTennis" */;
+			buildPhases = (
+				DD391BDB299F4E4D00451D13 /* Sources */,
+				DD391BDC299F4E4D00451D13 /* Frameworks */,
+				DD391BDD299F4E4D00451D13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KataTennis;
+			productName = KataTennis;
+			productReference = DD391BDF299F4E4D00451D13 /* KataTennis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD391BF4299F4E4E00451D13 /* KataTennisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD391C0C299F4E4E00451D13 /* Build configuration list for PBXNativeTarget "KataTennisTests" */;
+			buildPhases = (
+				DD391BF1299F4E4E00451D13 /* Sources */,
+				DD391BF2299F4E4E00451D13 /* Frameworks */,
+				DD391BF3299F4E4E00451D13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD391BF7299F4E4E00451D13 /* PBXTargetDependency */,
+			);
+			name = KataTennisTests;
+			productName = KataTennisTests;
+			productReference = DD391BF5299F4E4E00451D13 /* KataTennisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD391BFF299F4E4E00451D13 /* KataTennisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD391C0F299F4E4E00451D13 /* Build configuration list for PBXNativeTarget "KataTennisUITests" */;
+			buildPhases = (
+				DD391BFC299F4E4E00451D13 /* Sources */,
+				DD391BFD299F4E4E00451D13 /* Frameworks */,
+				DD391BFE299F4E4E00451D13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD391C02299F4E4E00451D13 /* PBXTargetDependency */,
+			);
+			name = KataTennisUITests;
+			productName = KataTennisUITests;
+			productReference = DD391C00299F4E4E00451D13 /* KataTennisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD391BD7299F4E4D00451D13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					DD391BDE299F4E4D00451D13 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					DD391BF4299F4E4E00451D13 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DD391BDE299F4E4D00451D13;
+					};
+					DD391BFF299F4E4E00451D13 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DD391BDE299F4E4D00451D13;
+					};
+				};
+			};
+			buildConfigurationList = DD391BDA299F4E4D00451D13 /* Build configuration list for PBXProject "KataTennis" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD391BD6299F4E4D00451D13;
+			productRefGroup = DD391BE0299F4E4D00451D13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD391BDE299F4E4D00451D13 /* KataTennis */,
+				DD391BF4299F4E4E00451D13 /* KataTennisTests */,
+				DD391BFF299F4E4E00451D13 /* KataTennisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD391BDD299F4E4D00451D13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD391BEF299F4E4E00451D13 /* LaunchScreen.storyboard in Resources */,
+				DD391BEC299F4E4E00451D13 /* Assets.xcassets in Resources */,
+				DD391BEA299F4E4D00451D13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD391BF3299F4E4E00451D13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD391BFE299F4E4E00451D13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD391BDB299F4E4D00451D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD391BE7299F4E4D00451D13 /* ViewController.swift in Sources */,
+				DD391BE3299F4E4D00451D13 /* AppDelegate.swift in Sources */,
+				DD391BE5299F4E4D00451D13 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD391BF1299F4E4E00451D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD391BFA299F4E4E00451D13 /* KataTennisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD391BFC299F4E4E00451D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD391C05299F4E4E00451D13 /* KataTennisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD391BF7299F4E4E00451D13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD391BDE299F4E4D00451D13 /* KataTennis */;
+			targetProxy = DD391BF6299F4E4E00451D13 /* PBXContainerItemProxy */;
+		};
+		DD391C02299F4E4E00451D13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD391BDE299F4E4D00451D13 /* KataTennis */;
+			targetProxy = DD391C01299F4E4E00451D13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD391BE8299F4E4D00451D13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD391BE9299F4E4D00451D13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD391BED299F4E4E00451D13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD391BEE299F4E4E00451D13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD391C07299F4E4E00451D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD391C08299F4E4E00451D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD391C0A299F4E4E00451D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KataTennis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.KataTennis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD391C0B299F4E4E00451D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KataTennis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.KataTennis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD391C0D299F4E4E00451D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KataTennisTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.KataTennisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KataTennis.app/KataTennis";
+			};
+			name = Debug;
+		};
+		DD391C0E299F4E4E00451D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KataTennisTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.KataTennisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KataTennis.app/KataTennis";
+			};
+			name = Release;
+		};
+		DD391C10299F4E4E00451D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KataTennisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.KataTennisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KataTennis;
+			};
+			name = Debug;
+		};
+		DD391C11299F4E4E00451D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KataTennisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.KataTennisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KataTennis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD391BDA299F4E4D00451D13 /* Build configuration list for PBXProject "KataTennis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD391C07299F4E4E00451D13 /* Debug */,
+				DD391C08299F4E4E00451D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD391C09299F4E4E00451D13 /* Build configuration list for PBXNativeTarget "KataTennis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD391C0A299F4E4E00451D13 /* Debug */,
+				DD391C0B299F4E4E00451D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD391C0C299F4E4E00451D13 /* Build configuration list for PBXNativeTarget "KataTennisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD391C0D299F4E4E00451D13 /* Debug */,
+				DD391C0E299F4E4E00451D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD391C0F299F4E4E00451D13 /* Build configuration list for PBXNativeTarget "KataTennisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD391C10299F4E4E00451D13 /* Debug */,
+				DD391C11299F4E4E00451D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD391BD7299F4E4D00451D13 /* Project object */;
+}
