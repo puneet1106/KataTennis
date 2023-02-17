@@ -16,5 +16,9 @@ class KataTennisTests: XCTestCase {
         let score = gameScore.getPlayerPoints(player1Points: 0, player2Points: 0)
         XCTAssertEqual("Love All", score)
     }
-
+    
+    func test_gameScore_WhenPlayer1ScoreFirstPoint_Player2ScoreStillLove() {
+        let score = gameScore.getPlayerPoints(player1Points: 1, player2Points: 0)
+        XCTAssertEqual("Fifteen - Love", score)
+    }
 }
