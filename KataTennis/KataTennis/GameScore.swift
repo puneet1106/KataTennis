@@ -70,8 +70,6 @@ class GameScore: NSObject {
     
     private func getPointsValue(point: Int) -> String {
         switch point {
-        case 0:
-            return "Love"
         case 1:
             return "Fifteen"
         case 2:

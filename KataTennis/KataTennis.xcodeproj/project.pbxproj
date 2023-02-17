@@ -14,19 +14,11 @@
 		DD391BEC299F4E4E00451D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD391BEB299F4E4E00451D13 /* Assets.xcassets */; };
 		DD391BEF299F4E4E00451D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD391BED299F4E4E00451D13 /* LaunchScreen.storyboard */; };
 		DD391BFA299F4E4E00451D13 /* KataTennisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD391BF9299F4E4E00451D13 /* KataTennisTests.swift */; };
-		DD391C05299F4E4E00451D13 /* KataTennisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD391C04299F4E4E00451D13 /* KataTennisUITests.swift */; };
 		DD391C16299F503E00451D13 /* GameScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD391C15299F503E00451D13 /* GameScore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		DD391BF6299F4E4E00451D13 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DD391BD7299F4E4D00451D13 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DD391BDE299F4E4D00451D13;
-			remoteInfo = KataTennis;
-		};
-		DD391C01299F4E4E00451D13 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DD391BD7299F4E4D00451D13 /* Project object */;
 			proxyType = 1;
@@ -47,9 +39,6 @@
 		DD391BF5299F4E4E00451D13 /* KataTennisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KataTennisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD391BF9299F4E4E00451D13 /* KataTennisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataTennisTests.swift; sourceTree = "<group>"; };
 		DD391BFB299F4E4E00451D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD391C00299F4E4E00451D13 /* KataTennisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KataTennisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD391C04299F4E4E00451D13 /* KataTennisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataTennisUITests.swift; sourceTree = "<group>"; };
-		DD391C06299F4E4E00451D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD391C15299F503E00451D13 /* GameScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,13 +57,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD391BFD299F4E4E00451D13 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,7 +65,6 @@
 			children = (
 				DD391BE1299F4E4D00451D13 /* KataTennis */,
 				DD391BF8299F4E4E00451D13 /* KataTennisTests */,
-				DD391C03299F4E4E00451D13 /* KataTennisUITests */,
 				DD391BE0299F4E4D00451D13 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,7 +74,6 @@
 			children = (
 				DD391BDF299F4E4D00451D13 /* KataTennis.app */,
 				DD391BF5299F4E4E00451D13 /* KataTennisTests.xctest */,
-				DD391C00299F4E4E00451D13 /* KataTennisUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,15 +100,6 @@
 				DD391BFB299F4E4E00451D13 /* Info.plist */,
 			);
 			path = KataTennisTests;
-			sourceTree = "<group>";
-		};
-		DD391C03299F4E4E00451D13 /* KataTennisUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DD391C04299F4E4E00451D13 /* KataTennisUITests.swift */,
-				DD391C06299F4E4E00451D13 /* Info.plist */,
-			);
-			path = KataTennisUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,24 +140,6 @@
 			productReference = DD391BF5299F4E4E00451D13 /* KataTennisTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DD391BFF299F4E4E00451D13 /* KataTennisUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DD391C0F299F4E4E00451D13 /* Build configuration list for PBXNativeTarget "KataTennisUITests" */;
-			buildPhases = (
-				DD391BFC299F4E4E00451D13 /* Sources */,
-				DD391BFD299F4E4E00451D13 /* Frameworks */,
-				DD391BFE299F4E4E00451D13 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DD391C02299F4E4E00451D13 /* PBXTargetDependency */,
-			);
-			name = KataTennisUITests;
-			productName = KataTennisUITests;
-			productReference = DD391C00299F4E4E00451D13 /* KataTennisUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,10 +153,6 @@
 						CreatedOnToolsVersion = 12.4;
 					};
 					DD391BF4299F4E4E00451D13 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = DD391BDE299F4E4D00451D13;
-					};
-					DD391BFF299F4E4E00451D13 = {
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = DD391BDE299F4E4D00451D13;
 					};
@@ -224,7 +173,6 @@
 			targets = (
 				DD391BDE299F4E4D00451D13 /* KataTennis */,
 				DD391BF4299F4E4E00451D13 /* KataTennisTests */,
-				DD391BFF299F4E4E00451D13 /* KataTennisUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -241,13 +189,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DD391BF3299F4E4E00451D13 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD391BFE299F4E4E00451D13 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -276,14 +217,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD391BFC299F4E4E00451D13 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD391C05299F4E4E00451D13 /* KataTennisUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -291,11 +224,6 @@
 			isa = PBXTargetDependency;
 			target = DD391BDE299F4E4D00451D13 /* KataTennis */;
 			targetProxy = DD391BF6299F4E4E00451D13 /* PBXContainerItemProxy */;
-		};
-		DD391C02299F4E4E00451D13 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DD391BDE299F4E4D00451D13 /* KataTennis */;
-			targetProxy = DD391C01299F4E4E00451D13 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -513,44 +441,6 @@
 			};
 			name = Release;
 		};
-		DD391C10299F4E4E00451D13 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = KataTennisUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.KataTennisUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = KataTennis;
-			};
-			name = Debug;
-		};
-		DD391C11299F4E4E00451D13 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = KataTennisUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.KataTennisUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = KataTennis;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -577,15 +467,6 @@
 			buildConfigurations = (
 				DD391C0D299F4E4E00451D13 /* Debug */,
 				DD391C0E299F4E4E00451D13 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DD391C0F299F4E4E00451D13 /* Build configuration list for PBXNativeTarget "KataTennisUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DD391C10299F4E4E00451D13 /* Debug */,
-				DD391C11299F4E4E00451D13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
