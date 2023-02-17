@@ -46,4 +46,14 @@ class KataTennisTests: XCTestCase {
         let score = gameScore.getPlayerPoints(player1Points: 3, player2Points: 3)
         XCTAssertEqual("Deuce", score)
     }
+    
+    func test_gameScore_WhenPlayer1Advantage() {
+        let score = gameScore.getPlayerPoints(player1Points: 4, player2Points: 3)
+        XCTAssertEqual("Player1 Advantage", score)
+    }
+    
+    func test_gameScore_WhenPlayer2Advantage() {
+        let score = gameScore.getPlayerPoints(player1Points: 3, player2Points: 4)
+        XCTAssertEqual("Player2 Advantage", score)
+    }
 }
